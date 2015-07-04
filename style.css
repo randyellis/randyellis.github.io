@@ -27,7 +27,9 @@ button{outline: none!important;} /* Prevent ugly blue glow on chrome and safari 
 /* Site container width */
 
 .container{
-	max-width:1170px;
+	width:100%;
+	padding-left:15px;
+	padding-right:15px;
 }
 
 /* = Blocs
@@ -159,8 +161,8 @@ button{outline: none!important;} /* Prevent ugly blue glow on chrome and safari 
 #bloc-1 h1{
 	font-weight: 400;
 	font-family: Montserrat;
-	line-height: 60px;
-	font-size: 55px;
+	line-height: 55px;
+	font-size: 50px;
 }
 #bloc-2 h1{
 	font-size: 55px;
@@ -263,6 +265,10 @@ button{outline: none!important;} /* Prevent ugly blue glow on chrome and safari 
 
 nav .caret{
 	margin: 0 5px;
+}
+.hero .hero-nav{
+	padding-left:inherit;
+	padding-right:inherit;
 }
 
 /* = Bric adjustment margins
