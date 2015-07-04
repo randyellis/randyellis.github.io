@@ -1,5 +1,5 @@
 /*-----------------------------------------------------------------------------------*/
-/*	    Envoi
+/*	    randyelis.github.io
 /*      Built with Blocs
 /*-----------------------------------------------------------------------------------*/
 
@@ -161,14 +161,14 @@ button{outline: none!important;} /* Prevent ugly blue glow on chrome and safari 
 #bloc-1 h1{
 	font-weight: 400;
 	font-family: Montserrat;
-	font-size: 45px;
-	line-height: 50px;
+	font-size: 65px;
+	line-height: 70px;
 }
 #bloc-2 h1{
-	font-size: 55px;
 	font-weight: 400;
 	font-family: Montserrat;
-	line-height: 60px;
+	line-height: 65px;
+	font-size: 60px;
 }
 
 /* = NavBar
