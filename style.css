@@ -171,13 +171,13 @@ button{outline: none!important;} /* Prevent ugly blue glow on chrome and safari 
 
 /* Bloc text custom styling */
 
-#section1 h1{
+#section-1 h1{
 	font-weight: 400;
 	font-family: Montserrat;
 	font-size: 65px;
 	line-height: 70px;
 }
-#section2 h1{
+#section-2 h1{
 	font-weight: 400;
 	font-family: Montserrat;
 	line-height: 65px;
