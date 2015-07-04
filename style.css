@@ -1,5 +1,5 @@
 /*-----------------------------------------------------------------------------------*/
-/*	    randyelis.github.io
+/*	    randyellis.github.io
 /*      Built with Blocs
 /*-----------------------------------------------------------------------------------*/
 
@@ -56,15 +56,24 @@ button{outline: none!important;} /* Prevent ugly blue glow on chrome and safari 
 .bloc-lg{
 	padding:100px 50px;
 }
+.bloc-md{
+	padding:50px;
+}
 .bloc-sm{
 	padding:20px 50px;
 }
 
 
-/* Background Effects */
+/* Background Styles */
 
-.b-parallax{
-	background-attachment:fixed;
+.bg-center,.bg-l-edge,.bg-r-edge,.bg-t-edge,.bg-b-edge,.bg-tl-edge,.bg-bl-edge,.bg-tr-edge,.bg-br-edge,.bg-repeat{
+	-webkit-background-size: auto!important;
+	-moz-background-size: auto!important;
+	-o-background-size: auto!important;
+	background-size: auto!important;
+}
+.bg-center{
+	-webkit-background-size: auto;
 }
 
 
@@ -158,13 +167,13 @@ button{outline: none!important;} /* Prevent ugly blue glow on chrome and safari 
 
 /* Bloc text custom styling */
 
-#bloc-1 h1{
+#section1 h1{
 	font-weight: 400;
 	font-family: Montserrat;
 	font-size: 65px;
 	line-height: 70px;
 }
-#bloc-2 h1{
+#section2 h1{
 	font-weight: 400;
 	font-family: Montserrat;
 	line-height: 65px;
