@@ -62,16 +62,10 @@ button{outline: none!important;} /* Prevent ugly blue glow on chrome and safari 
 }
 
 
-/* Background Styles */
+/* Background Effects */
 
-.bg-center,.bg-l-edge,.bg-r-edge,.bg-t-edge,.bg-b-edge,.bg-tl-edge,.bg-bl-edge,.bg-tr-edge,.bg-br-edge,.bg-repeat{
-	-webkit-background-size: auto!important;
-	-moz-background-size: auto!important;
-	-o-background-size: auto!important;
-	background-size: auto!important;
-}
-.bg-center{
-	-webkit-background-size: auto;
+.b-parallax{
+	background-attachment:fixed;
 }
 
 
@@ -283,6 +277,10 @@ nav .caret{
 /* = Bric adjustment margins
 -------------------------------------------------------------- */
 
+.mg-sm{
+	margin-top:10px;
+	margin-bottom:5px;
+}
 .mg-md{
 	margin-top:10px;
 	margin-bottom:20px;
@@ -290,6 +288,18 @@ nav .caret{
 .mg-lg{
 	margin-top:10px;
 	margin-bottom:40px;
+}
+img.mg-sm,img.mg-md,img.mg-lg{
+	margin-top: 0;
+}
+img.mg-sm{
+	margin-bottom:10px;
+}
+img.mg-md{
+	margin-bottom:30px;
+}
+img.mg-lg{
+	margin-bottom:50px;
 }
 
 /* = Buttons
