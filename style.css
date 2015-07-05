@@ -15,7 +15,7 @@ a:hover{text-decoration: none; cursor:pointer;}
 button{outline: none!important;} /* Prevent ugly blue glow on chrome and safari */
 
 
-   
+
 
 
 /* Globals type styling */
@@ -156,12 +156,6 @@ button{outline: none!important;} /* Prevent ugly blue glow on chrome and safari 
 	color:rgba(0,0,0,.7);
 	border-color:rgba(0,0,0,.3);
 }
-/* Dividers */
-
-.b-divider-dashed{
-	border-top:1px dashed rgba(0,0,0,.1);
-	border-bottom:1px dashed rgba(0,0,0,.1);
-}
 
 /* Bloc text custom styling */
 
@@ -175,7 +169,33 @@ button{outline: none!important;} /* Prevent ugly blue glow on chrome and safari 
 	font-weight: 400;
 	font-family: Montserrat;
 	line-height: 65px;
-	font-size: 60px;
+	font-size: 62px;
+}
+#bloc-3 h2{
+	line-height: 55px;
+	font-size: 48px;
+	font-weight: 300;
+	font-family: Montserrat;
+}
+#bloc-3 p{
+	font-size: 28px;
+}
+#bloc-4 h1{
+	font-weight: 400;
+	font-family: Montserrat;
+	line-height: 65px;
+	font-size: 62px;
+}
+#bloc-4 h3{
+	font-size: 30px;
+}
+#bloc-5 h4{
+	font-size: 16px;
+}
+#bloc-5 p{
+	font-size: 18px;
+	font-weight: 400;
+	font-family: PT Sans;
 }
 
 /* = NavBar
@@ -277,6 +297,9 @@ nav .caret{
 /* = Bric adjustment margins
 -------------------------------------------------------------- */
 
+.mg-clear{
+	margin:0;
+}
 .mg-sm{
 	margin-top:10px;
 	margin-bottom:5px;
@@ -288,18 +311,6 @@ nav .caret{
 .mg-lg{
 	margin-top:10px;
 	margin-bottom:40px;
-}
-img.mg-sm,img.mg-md,img.mg-lg{
-	margin-top: 0;
-}
-img.mg-sm{
-	margin-bottom:10px;
-}
-img.mg-md{
-	margin-bottom:30px;
-}
-img.mg-lg{
-	margin-bottom:50px;
 }
 
 /* = Buttons
@@ -321,8 +332,20 @@ button{
 	outline: none!important;
 }
 
+.btn-rd{
+	border-radius: 40px;
+}
+.btn-xl{
+	padding: 16px 40px;
+	font-size: 28px;
+}
 .dropdown a .caret{
 	margin:0 0 0 5px}
+/* = Icons
+-------------------------------------------------------------- */
+.icon-md{
+	font-size:30px!important;
+}
 
 
 /* = Text & Icon Styles
@@ -388,10 +411,18 @@ iframe{
 .bgc-pistachio{
 	background-color:#A0D36E;
 }
+.bgc-anti-flash-white{
+	background-color:#F1F1F1;
+}
 /* Text colour styles */
 
 .tc-white{
 	color:#ffffff!important;
+}
+.tc-outer-space{
+	color:#47454B!important;
+	!important}.tc-fern-green{
+	color:#648644!important;
 }
 
 
