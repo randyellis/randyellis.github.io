@@ -62,6 +62,19 @@ button{outline: none!important;} /* Prevent ugly blue glow on chrome and safari 
 }
 
 
+/* Background Styles */
+
+.bg-center,.bg-l-edge,.bg-r-edge,.bg-t-edge,.bg-b-edge,.bg-tl-edge,.bg-bl-edge,.bg-tr-edge,.bg-br-edge,.bg-repeat{
+	-webkit-background-size: auto!important;
+	-moz-background-size: auto!important;
+	-o-background-size: auto!important;
+	background-size: auto!important;
+}
+.bg-repeat{
+	background:repeat;
+}
+
+
 /* Background Effects */
 
 .b-parallax{
@@ -341,11 +354,6 @@ button{
 }
 .dropdown a .caret{
 	margin:0 0 0 5px}
-/* = Icons
--------------------------------------------------------------- */
-.icon-md{
-	font-size:30px!important;
-}
 
 
 /* = Text & Icon Styles
@@ -425,6 +433,11 @@ iframe{
 	color:#648644!important;
 }
 
+/* Bloc image backgrounds */
+
+.bg-dots-bg{
+	background-image:url("img/dots-bg.png");
+}
 
 
 
