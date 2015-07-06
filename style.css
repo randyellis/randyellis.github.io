@@ -170,6 +170,12 @@ button{outline: none!important;} /* Prevent ugly blue glow on chrome and safari 
 	border-color:rgba(0,0,0,.3);
 }
 
+/* Row Margin Offsets */
+
+.voffset{
+	margin-top:30px;
+}
+
 /* Bloc text custom styling */
 
 #section-1 h1{
@@ -184,31 +190,71 @@ button{outline: none!important;} /* Prevent ugly blue glow on chrome and safari 
 	line-height: 65px;
 	font-size: 62px;
 }
-#bloc-3 h2{
+#section-3 h2{
 	line-height: 55px;
 	font-size: 48px;
 	font-weight: 300;
 	font-family: Montserrat;
 }
-#bloc-3 p{
+#section-3 p{
 	font-size: 28px;
 }
-#bloc-4 h1{
+#section-4 h1{
 	font-weight: 400;
 	font-family: Montserrat;
 	line-height: 65px;
 	font-size: 62px;
 }
-#bloc-4 h3{
+#section-4 h3{
 	font-size: 30px;
 }
-#bloc-5 h4{
+#section-5 h1{
+	font-size: 62px;
+	line-height: 65px;
+	font-weight: 400;
+	font-family: Montserrat;
+}
+#section-5a h4{
 	font-size: 16px;
 }
-#bloc-5 p{
+#section-5a p{
 	font-size: 18px;
 	font-weight: 400;
 	font-family: PT Sans;
+}
+#bloc-7 h1{
+	font-size: 62px;
+	line-height: 65px;
+	font-weight: 400;
+	font-family: Montserrat;
+}
+#section-6 h1{
+	font-size: 62px;
+	font-weight: 400;
+	font-family: Montserrat;
+	line-height: 65px;
+}
+#section-7 h1{
+	font-weight: 400;
+	font-family: Montserrat;
+	font-size: 62px;
+	line-height: 60px;
+}
+#section-7 h4{
+	font-size: 25px;
+	font-family: Lato;
+	font-weight: 400;
+}
+#section-7 h3{
+	font-family: Lato;
+	font-weight: 900;
+	font-size: 30px;
+}
+#section-7 p{
+	font-family: Lato;
+	font-weight: 400;
+	line-height: 30px;
+	font-size: 22px;
 }
 
 /* = NavBar
@@ -352,6 +398,18 @@ button{
 	padding: 16px 40px;
 	font-size: 28px;
 }
+.a-btn{
+	padding: 6px 10px 6px 0;
+	line-height: 1.42857143;
+	display:inline-block;
+}
+.text-center .a-btn{
+	padding: 6px 0;
+}
+.a-block{
+	width:100%;
+	text-align: left;
+}
 .dropdown a .caret{
 	margin:0 0 0 5px}
 
@@ -361,8 +419,29 @@ button{
 .sm-shadow{
 	text-shadow:0 1px 2px rgba(0,0,0,.3);
 }
+.pressed-t{
+	text-shadow:0 1px 0 #FFF;
+}
 
+/* = Lists
+-------------------------------------------------------------- */
+.list-sp-md li{
+	padding-bottom:10px;
+}
+.list-sp-md li:last-child,.list-sp-lg li:last-child,.list-sp-xl li:last-child{
+	padding-bottom:0;
+}
 
+/* = Panels
+-------------------------------------------------------------- */
+.panel{
+	border:0!important;
+	box-shadow: 0 0px 2px rgba(0,0,0,.4);
+}
+.panel-heading, .panel-footer{
+	background-color: inherit;
+	border-color: rgba(0,0,0,.1)!important;
+}
 .panel-sq, .panel-sq .panel-heading, .panel-sq .panel-footer{
 	border-radius:0;
 }
@@ -382,6 +461,25 @@ button{
 
 iframe{
 	border:0;
+}
+/* = Carousel
+-------------------------------------------------------------- */
+
+.carousel-control span{
+	position: absolute;
+	top: 50%;
+	z-index: 5;
+	display: inline-block;
+}
+.carousel-control{
+	color:#FFF!important;
+	text-shadow: none;
+}
+.carousel-indicators li{
+	margin: 0 4px;
+}
+.carousel-indicators .active{
+	margin: 0 4px -1px;
 }
 
 
@@ -422,6 +520,9 @@ iframe{
 .bgc-anti-flash-white{
 	background-color:#F1F1F1;
 }
+.bgc-dark-jungle-green{
+	background-color:#23282A;
+}
 /* Text colour styles */
 
 .tc-white{
@@ -432,11 +533,35 @@ iframe{
 	!important}.tc-fern-green{
 	color:#648644!important;
 }
+.tc-aurometalsaurus{
+	color:#667788!important;
+}
+/* Button colour styles */
+
+.btn-pistachio{
+	background:#A0D36E;
+	color:rgba(0,0,0,.5)!important;
+}
+.btn-pistachio:hover{
+	background:#80a958;
+	color:rgba(0,0,0,.5)!important;
+}
+/* Link colour styles */
+
+.ltc-azure{
+	color:#167BFF!important;
+}
+.ltc-azure:hover{
+	color:#1262cc!important;
+}
 
 /* Bloc image backgrounds */
 
 .bg-dots-bg{
 	background-image:url("img/dots-bg.png");
+}
+.bg-golden-gate-overlay{
+	background-image:url("img/golden-gate-overlay.png");
 }
 
 

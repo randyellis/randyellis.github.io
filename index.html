@@ -10,6 +10,7 @@
     <link rel="stylesheet" id="ppstyle" type="text/css" href="style.css">
     <link rel='stylesheet' href='./css/animate.css' /><link rel='stylesheet' href='./css/font-awesome.min.css'/><link href='http://fonts.googleapis.com/css?family=Montserrat&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=PT+Sans&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
     <script src="./js/jquery-2.1.0.min.js"></script>
     <script src="./js/bootstrap.js"></script>
     <script src="./js/blocs.js"></script>
@@ -33,19 +34,19 @@
 			<div class="collapse navbar-collapse navbar-1">
 				<ul class="site-navigation nav navbar-nav">
 					<li>
-						<a href="index.html">ABOUT</a>
+						<a id="pl-1" onclick="scrollToTarget('#section-3')">ABOUT</a>
 					</li>
 					<li>
-						<a href="index.html">HOW IT WORKS</a>
+						<a id="pl-1" onclick="scrollToTarget('#section-4')">HOW IT WORKS</a>
 					</li>
 					<li>
 						<a href="index.html">WHO&rsquo;S PROTECTED</a>
 					</li>
 					<li>
-						<a href="index.html">PRICING</a>
+						<a id="pl-1" onclick="scrollToTarget('#section-6a')">PRICING</a>
 					</li>
 					<li>
-						<a href="index.html">FAQ'S</a>
+						<a id="pl-1" onclick="scrollToTarget('#section-7')">FAQ'S</a>
 					</li>
 				</ul>
 			</div>
@@ -90,8 +91,8 @@
 </div>
 <!-- Footer - section-2 END -->
 
-<!-- Footer - bloc-3 -->
-<div class="bloc b-parallax tc-outer-space bgc-anti-flash-white l-bloc" id="bloc-3">
+<!-- Footer - section-3 -->
+<div class="bloc b-parallax tc-outer-space bgc-anti-flash-white l-bloc" id="section-3">
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col-sm-12">
@@ -111,10 +112,10 @@
 		</div>
 	</div>
 </div>
-<!-- Footer - bloc-3 END -->
+<!-- Footer - section-3 END -->
 
-<!-- Footer - bloc-4 -->
-<div class="bloc bgc-pistachio l-bloc" id="bloc-4">
+<!-- Footer - section-4 -->
+<div class="bloc bgc-pistachio l-bloc" id="section-4">
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col-sm-12">
@@ -131,10 +132,24 @@
 		</div>
 	</div>
 </div>
-<!-- Footer - bloc-4 END -->
+<!-- Footer - section-4 END -->
 
-<!-- Footer - bloc-5 -->
-<div class="bloc bgc-white bg-dots-bg l-bloc bg-repeat" id="bloc-5">
+<!-- Footer - section-5 -->
+<div class="bloc bg-repeat bgc-azure d-bloc" id="section-5">
+	<div class="container bloc-lg">
+		<div class="row">
+			<div class="col-sm-12">
+				<h1 class="mg-md text-center ">
+					<strong>How does this work?</strong>
+				</h1>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Footer - section-5 END -->
+
+<!-- Footer - section-5a -->
+<div class="bloc bg-repeat bgc-white l-bloc" id="section-5a">
 	<div class="container bloc-lg">
 		<div class="row animated pulse">
 			<div class="col-sm-3">
@@ -188,10 +203,276 @@
 		</div>
 	</div>
 </div>
-<!-- Footer - bloc-5 END -->
+<!-- Footer - section-5a END -->
 
-<!-- Footer - bloc-6 -->
-<div class="bloc bgc-anti-flash-white l-bloc" id="bloc-6">
+<!-- Footer - bloc-7 -->
+<div class="bloc bgc-pistachio l-bloc" id="bloc-7">
+	<div class="container bloc-lg">
+		<div class="row">
+			<div class="col-sm-12">
+				<h1 class="mg-md text-center  tc-white sm-shadow">
+					Who&rsquo;s Protected?
+				</h1>
+				<div id="carousel-1" class="carousel slide" data-ride="carousel">
+					<ol class="carousel-indicators">
+						<li data-target="#carousel-1" data-slide-to="0" class="active">
+						</li>
+						<li data-target="#carousel-1" data-slide-to="1">
+						</li>
+						<li data-target="#carousel-1" data-slide-to="2">
+						</li>
+						<li data-target="#carousel-1" data-slide-to="3">
+						</li>
+						<li data-target="#carousel-1" data-slide-to="4">
+						</li>
+					</ol>
+					<div class="carousel-inner">
+						<div class="item active">
+							<img src="img/envoi-who-1.jpg" />
+							<div class="carousel-caption">
+							</div>
+						</div>
+						<div class="item">
+							<img src="img/html-bg.jpg" />
+							<div class="carousel-caption">
+							</div>
+						</div>
+						<div class="item">
+							<img src="img/Candy-Colored-Office-Chairs-With-Long-Table-Conference-And-Rounded-Chandeliers_ehkplg.jpeg" />
+							<div class="carousel-caption">
+							</div>
+						</div>
+						<div class="item">
+							<img src="img/toolbelt-bg.jpg" />
+							<div class="carousel-caption">
+							</div>
+						</div>
+						<div class="item">
+							<img src="img/road-logistics-bg.jpg" />
+							<div class="carousel-caption">
+							</div>
+						</div>
+					</div><a class="left carousel-control" href="#carousel-1" role="button" data-slide="prev"><span class="fa fa-chevron-left"></span><span class="sr-only">Previous</span></a><a class="right carousel-control" href="#carousel-1" role="button" data-slide="next"><span class="fa fa-chevron-right"></span><span class="sr-only">Next</span></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Footer - bloc-7 END -->
+
+<!-- Footer - section-6 -->
+<div class="bloc bgc-azure d-bloc" id="section-6">
+	<div class="container bloc-lg">
+		<div class="row">
+			<div class="col-sm-12">
+				<h1 class="mg-md text-center  sm-shadow">
+					PRE-ORDER NOW TO RECEIVE 20% OFF YOUR FIRST MONTH FOR INVOICES UP TO $25,000
+				</h1>
+				<h3 class="mg-md text-center sm-shadow">
+					<span class="fa fa-star"><strong><i>Use promo code: PREBETA20</i></strong></span>
+				</h3>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Footer - section-6 END -->
+
+<!-- Footer - section-6a -->
+<div class="bloc bgc-azure b-parallax bg-golden-gate-overlay d-bloc" id="section-6a">
+	<div class="container bloc-lg">
+		<div class="row">
+			<div class="col-sm-4">
+				<div class="panel">
+					<div class="panel-heading">
+						<img src="img/envoi-silver-badge.png" class="img-responsive" />
+					</div>
+					<div class="panel-body">
+						<ul class="list-unstyled list-sp-md">
+							<li>
+								<h4 class="text-center mg-md">
+									Up to 3 contracts protected
+								</h4>
+							</li>
+							<li>
+								<h4 class="text-center mg-md">
+									Awesome feature two
+								</h4>
+							</li>
+							<li>
+								<h4 class="text-center mg-md">
+									Awesome feature three
+								</h4>
+							</li>
+							<li>
+								<h4 class="text-center mg-md">
+									Awesome feature four
+								</h4>
+							</li>
+						</ul>
+					</div>
+					<div class="panel-footer">
+						<a href="index.html" class="btn btn-block btn-pistachio btn-xl">Buy Now</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-4">
+				<div class="panel">
+					<div class="panel-heading">
+						<img src="img/envoi-gold-badge.png" class="img-responsive" />
+					</div>
+					<div class="panel-body">
+						<ul class="list-unstyled list-sp-md">
+							<li>
+								<h4 class="text-center mg-md">
+									Up to 10 contracts protected
+								</h4>
+							</li>
+							<li>
+								<h4 class="text-center mg-md">
+									Awesome feature two
+								</h4>
+							</li>
+							<li>
+								<h4 class="text-center mg-md">
+									Awesome feature three
+								</h4>
+							</li>
+							<li>
+								<h4 class="text-center mg-md">
+									Awesome feature four
+								</h4>
+							</li>
+						</ul>
+					</div>
+					<div class="panel-footer">
+						<a href="index.html" class="btn btn-block btn-pistachio btn-xl">Buy Now</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-4">
+				<div class="panel">
+					<div class="panel-heading">
+						<img src="img/envoi-black-badge.png" class="img-responsive" />
+					</div>
+					<div class="panel-body">
+						<ul class="list-unstyled list-sp-md">
+							<li>
+								<h4 class="text-center mg-md">
+									Unlimted contracts protected
+								</h4>
+							</li>
+							<li>
+								<h4 class="text-center mg-md">
+									Awesome feature two
+								</h4>
+							</li>
+							<li>
+								<h4 class="text-center mg-md">
+									Awesome feature three
+								</h4>
+							</li>
+							<li>
+								<h4 class="text-center mg-md">
+									Awesome feature four
+								</h4>
+							</li>
+						</ul>
+					</div>
+					<div class="panel-footer">
+						<a href="index.html" class="btn btn-block btn-pistachio btn-xl">Buy Now</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Footer - section-6a END -->
+
+<!-- Footer - section-7 -->
+<div class="bloc l-bloc bgc-white" id="section-7">
+	<div class="container bloc-lg">
+		<div class="row">
+			<div class="col-sm-12 col-md-8 col-md-offset-2">
+				<h1 class="mg-md text-center ">
+					FREQUENTLY ASKED QUESTIONS
+				</h1>
+				<h4 class="mg-md text-center  tc-aurometalsaurus">
+					<i>Need some help understanding how Envoi truly works? Here's some of our most commonly asked questions.</i>
+				</h4>
+				<h3 class=" tc-aurometalsaurus pressed-t mg-md">
+					Q: How much does Envoi cost?
+				</h3>
+				<p>
+					<strong>A</strong>: Envoi is a monthly pay-as-you-go service where agreement coverage starts at $49.99 a month for a $5,000 contract. We also offer annual protection plans at a discount.
+				</p>
+			</div>
+		</div>
+		<div class="row voffset">
+			<div class="col-sm-12 col-md-8 col-md-offset-2">
+				<h3 class=" tc-aurometalsaurus pressed-t mg-md">
+					Q: Is there a contract commitment?
+				</h3>
+				<p>
+					<strong>A</strong>: No, with Envoi you start when you want and you can cancel at any time.
+				</p>
+			</div>
+		</div>
+		<div class="row voffset">
+			<div class="col-sm-12 col-md-8 col-md-offset-2">
+				<h3 class=" tc-aurometalsaurus pressed-t mg-md">
+					Q: Are you a legal service?
+				</h3>
+				<p>
+					<strong>A</strong>: No, Envoi is a protection service that gives your business the reassurance your contracts won't go unpaid. We offer that by providing a network of legal professionals who can review and advise you as to what your legal recourse should be.
+				</p>
+			</div>
+		</div>
+		<div class="row voffset">
+			<div class="col-sm-12 col-md-8 col-md-offset-2">
+				<h3 class=" tc-aurometalsaurus pressed-t mg-md">
+					Q: What is Envoi's relationship to me during and after a signed agreement?
+				</h3>
+				<p>
+					<strong>A</strong>: After an agreement is signed, Envoi is then committed to giving you the security that your contract is legally re-enforced by our network of legal professionals. In the event a contract is not fulfilled by yourself or a client, Envoi will serve as the advisor to help resolve the conflict swiftly.
+				</p>
+			</div>
+		</div>
+		<div class="row voffset">
+			<div class="col-sm-12 col-md-8 col-md-offset-2">
+				<h3 class=" tc-aurometalsaurus pressed-t mg-md">
+					Q: I was awarded a judgement to be paid, but I don't know how I will collect?
+				</h3>
+				<p>
+					<strong>A</strong>: Collecting an award can be more challenging than going to court. Being an Envoi member, we can offer cash advances to keep your business cash-flow positive while we pursue the original court judgment.
+				</p>
+			</div>
+		</div>
+		<div class="row voffset">
+			<div class="col-sm-12 col-md-8 col-md-offset-2">
+				<h3 class=" tc-aurometalsaurus pressed-t mg-sm">
+					Q: Do you offer debt recovery services?
+				</h3>
+				<p>
+					<strong>A</strong>: Yes! As part of your Envoi membership. We work with an affiliate network of debt recovery providers that can recover and broker any non-paid invoices. This can boost recovery rates and preserve client relationships by empowering those in debt to easily and responsibly address their obligations.
+				</p>
+			</div>
+		</div>
+		<div class="row voffset">
+			<div class="col-sm-12 col-md-8 col-md-offset-2">
+				<h3 class=" tc-aurometalsaurus pressed-t mg-sm">
+					Q: I want to see the world's longest invoice.
+				</h3><a href="Unfortunately, we have well-documented proof that clients are continuing to rob hard-working people out of millions of dollars. Deadbeat clients are the worst. Envoi was created to give freelancers the support they need to survive in an already challenging market." class="a-btn a-block ltc-azure" target="_blank">See the world&rsquo;s longest invoice.</a>
+				<p>
+					<strong>A</strong>: Unfortunately, we have well-documented proof that clients are continuing to rob hard-working people out of <a class="ltc-azure" href="http://www.worldslongestinvoice.com/http://www.worldslongestinvoice.com/?ref=envoi" target="_blank">millions</a> of dollars. Deadbeat clients are the worst. Envoi was created to give freelancers the support they need to survive in an already challenging market.
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Footer - section-7 END -->
+
+<!-- Footer - section-8 -->
+<div class="bloc bgc-anti-flash-white l-bloc" id="section-8">
 	<div class="container bloc-lg">
 		<div class="row animated fadeIn">
 			<div class="col-sm-3">
@@ -209,7 +490,36 @@
 		</div>
 	</div>
 </div>
-<!-- Footer - bloc-6 END -->
+<!-- Footer - section-8 END -->
+
+<!-- Footer - footer -->
+<div class="bloc bgc-dark-jungle-green d-bloc" id="footer">
+	<div class="container bloc-lg">
+		<div class="row">
+			<div class="col-sm-3">
+				<h3 class="mg-md">
+					About
+				</h3><a href="index.html" class="a-btn a-block">The team</a><a href="index.html" class="a-btn a-block">Contact us</a>
+			</div>
+			<div class="col-sm-3">
+				<h3 class="mg-md">
+					Get the App
+				</h3><a href="index.html" class="a-btn a-block">iPhone</a><a href="index.html" class="a-btn a-block">Android</a>
+			</div>
+			<div class="col-sm-3">
+				<h3 class="mg-md">
+					Follow us
+				</h3><a href="index.html" class="a-btn a-block">Twitter</a><a href="index.html" class="a-btn a-block">Facebook</a>
+			</div>
+			<div class="col-sm-3">
+				<h3 class="mg-md">
+					Company
+				</h3><a href="index.html" class="a-btn a-block">Terms of use</a><a href="index.html" class="a-btn a-block">Privacy</a>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Footer - footer END -->
 </div>
 <!-- Main container END -->
 
