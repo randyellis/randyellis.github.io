@@ -27,7 +27,9 @@ button{outline: none!important;} /* Prevent ugly blue glow on chrome and safari 
 /* Site container width */
 
 .container{
-	max-width:1170px;
+	width:100%;
+	padding-left:15px;
+	padding-right:15px;
 }
 
 /* = Blocs
@@ -351,6 +353,10 @@ button{outline: none!important;} /* Prevent ugly blue glow on chrome and safari 
 
 nav .caret{
 	margin: 0 5px;
+}
+.hero .hero-nav{
+	padding-left:inherit;
+	padding-right:inherit;
 }
 
 /* = Bric adjustment margins
