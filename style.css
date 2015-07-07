@@ -27,9 +27,7 @@ button{outline: none!important;} /* Prevent ugly blue glow on chrome and safari 
 /* Site container width */
 
 .container{
-	width:100%;
-	padding-left:15px;
-	padding-right:15px;
+	max-width:1170px;
 }
 
 /* = Blocs
@@ -226,9 +224,18 @@ button{outline: none!important;} /* Prevent ugly blue glow on chrome and safari 
 }
 #whos-covered h1{
 	font-size: 62px;
-	line-height: 65px;
 	font-weight: 400;
 	font-family: Montserrat;
+	line-height: 65px;
+}
+#whos-covered h3{
+	font-weight: 400;
+	font-family: Montserrat;
+}
+#whos-covered p{
+	font-weight: 800;
+	font-family: Helvetica;
+	font-size: 18px;
 }
 #section-6 h1{
 	font-size: 62px;
@@ -354,10 +361,6 @@ button{outline: none!important;} /* Prevent ugly blue glow on chrome and safari 
 nav .caret{
 	margin: 0 5px;
 }
-.hero .hero-nav{
-	padding-left:inherit;
-	padding-right:inherit;
-}
 
 /* = Bric adjustment margins
 -------------------------------------------------------------- */
@@ -419,6 +422,16 @@ button{
 .dropdown a .caret{
 	margin:0 0 0 5px}
 
+/*  Rounded Image */
+.img-rd{
+	border-radius:6px;
+}
+.img-rd-md{
+	border-radius:20px;
+}
+.img-rd-lg{
+	border-radius:34px;
+}
 
 /* = Text & Icon Styles
 -------------------------------------------------------------- */
@@ -427,6 +440,15 @@ button{
 }
 .pressed-t{
 	text-shadow:0 1px 0 #FFF;
+}
+/* = Text Widths
+-------------------------------------------------------------- */
+.text-w-lg{
+	max-width:400px;
+}
+.text-center.text-w-sm, .text-center.text-w-md, .text-center.text-w-lg{
+	margin-left: auto;
+	margin-right: auto;
 }
 
 /* = Lists
@@ -467,25 +489,6 @@ button{
 
 iframe{
 	border:0;
-}
-/* = Carousel
--------------------------------------------------------------- */
-
-.carousel-control span{
-	position: absolute;
-	top: 50%;
-	z-index: 5;
-	display: inline-block;
-}
-.carousel-control{
-	color:#FFF!important;
-	text-shadow: none;
-}
-.carousel-indicators li{
-	margin: 0 4px;
-}
-.carousel-indicators .active{
-	margin: 0 4px -1px;
 }
 
 
@@ -563,11 +566,14 @@ iframe{
 
 /* Bloc image backgrounds */
 
-.bg-dots-bg{
-	background-image:url("img/dots-bg.png");
-}
 .bg-golden-gate-overlay{
 	background-image:url("img/golden-gate-overlay.png");
+}
+.bg-dots-bg{
+	background-image:url('img/dots-bg.png');
+}
+.bg-grid-bg{
+	background-image:url('img/grid-bg.png');
 }
 
 
