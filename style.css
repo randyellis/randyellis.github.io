@@ -220,6 +220,11 @@ button{outline: none!important;} /* Prevent ugly blue glow on chrome and safari 
 #section-5a p{
 	font-size: 18px;
 	font-weight: 400;
+	font-family: 'PT Sans';
+}
+#section-5a p{
+	font-size: 18px;
+	font-weight: 400;
 	font-family: PT Sans;
 }
 #whos-covered h1{
@@ -233,9 +238,15 @@ button{outline: none!important;} /* Prevent ugly blue glow on chrome and safari 
 	font-family: Montserrat;
 }
 #whos-covered p{
-	font-weight: 800;
-	font-family: Helvetica;
 	font-size: 18px;
+	font-weight: 300;
+	font-family: PT Sans;
+}
+#bloc-8 h3{
+	font-size: 44px;
+}
+#bloc-8 p{
+	font-size: 16px;
 }
 #section-6 h1{
 	font-size: 62px;
