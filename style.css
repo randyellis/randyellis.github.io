@@ -496,19 +496,6 @@ button{
 
 
 
-/* Empty space fillers - Used on empty blocs to fill them out */
-
-.empty-column,.empty-column.thin{
-	width:100%;
-	height:350px;
-	display:inline-block;
-}
-.empty-column{
-	height:350px;
-}
-.empty-column.thin{
-	height:150px;
-}
 /* iFrame */
 
 iframe{
