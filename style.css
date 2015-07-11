@@ -227,7 +227,7 @@ button{outline: none!important;} /* Prevent ugly blue glow on chrome and safari 
 	font-weight: 400;
 	font-family: PT Sans;
 }
-#whos-covered h1{
+#bloc-7 h1{
 	font-size: 62px;
 	font-weight: 400;
 	font-family: Montserrat;
@@ -242,10 +242,10 @@ button{outline: none!important;} /* Prevent ugly blue glow on chrome and safari 
 	font-weight: 300;
 	font-family: PT Sans;
 }
-#bloc-8 h3{
+#bloc-9 h3{
 	font-size: 44px;
 }
-#bloc-8 p{
+#bloc-9 p{
 	font-size: 16px;
 }
 #section-6 h1{
@@ -454,6 +454,9 @@ button{
 }
 /* = Text Widths
 -------------------------------------------------------------- */
+.text-w-md{
+	max-width:300px;
+}
 .text-w-lg{
 	max-width:400px;
 }
@@ -540,6 +543,9 @@ iframe{
 .bgc-anti-flash-white{
 	background-color:#F1F1F1;
 }
+.bgc-aurometalsaurus{
+	background-color:#667788;
+}
 .bgc-dark-jungle-green{
 	background-color:#23282A;
 }
@@ -582,9 +588,6 @@ iframe{
 }
 .bg-dots-bg{
 	background-image:url("img/dots-bg.png");
-}
-.bg-grid-bg{
-	background-image:url("img/grid-bg.png");
 }
 
 
