@@ -187,8 +187,8 @@ button{outline: none!important;} /* Prevent ugly blue glow on chrome and safari 
 #section-2 h1{
 	font-weight: 400;
 	font-family: Montserrat;
-	line-height: 65px;
-	font-size: 62px;
+	font-size: 55px;
+	line-height: 60px;
 }
 #section-3 h2{
 	line-height: 55px;
